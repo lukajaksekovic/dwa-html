@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(#225881, #dcdfe4);
+    margin:0;
+    padding:0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Source Sans Pro';
+    line-height: 1.5em;
+}
+
+.container{
+
+   
+
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+ }
+
+.naslov{
+    background-color: transparent;
+    grid-area: naslov;
+    padding-top: 250px;
+}
+.naslov h1{
+    color: black;
+    font-size: 50;
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height: 21%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.naslov p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: rgba(74,99,149,0.5);
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 60px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60px;
+    margin: auto auto;
+}
+
+.form-group{
+    background-color: transparent;
+    grid-area: form-group;
+}
+
+.form-group input{
+    background-color: transparent;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    
+}
